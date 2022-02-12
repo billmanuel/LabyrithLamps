@@ -1,0 +1,142 @@
+body {
+	display:block;
+	width:98vw;
+	height:98vh;
+	/*
+	background-image: url("layout.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	*/
+}
+
+pixel {
+	display: block;
+	width: 5px;
+	height: 5px;
+	float: left;	
+	/*border: black 1px solid;*/
+	box-sizing: border-box;
+}
+
+
+row {
+	display: block;
+	float: none;
+	box-sizing: border-box;
+}
+
+editor_header {
+	display: block;
+	width: 100%;
+	height: 15%;
+	float: left;
+}
+editor_main {
+	display: block;
+	width: 100%;
+	height: 70%;
+	float: left;
+}
+main_left{
+	display: block;
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+main_center{
+	display: block;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+array{
+	display: block;
+	width: 900px;
+	height: 450px;
+	/*border: black 5px solid;*/
+	margin: 20px calc(50% - 450px);
+	float: left;
+	overflow:scroll;
+	box-sizing: border-box;
+}
+generate{
+	display: block;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px 5px;
+	border: black 2px solid;
+	margin: 20px calc(50% - 50px);
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	background-color:blue;
+	color:white;
+}
+
+wall{
+	display: block;
+	position:relative;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px 0px 0px 5px;
+	border: black 2px solid;
+	margin-left: calc(50% - 100px);
+	margin-top: calc(7.5% - 20px);
+	background-color:blue;
+	color:white;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	cursor: default;
+}
+path{
+	display: block;
+	width: 100px;
+	height: 40px;
+	border-radius: 0px 5px 5px 0px;
+	margin-top: calc(7.5% - 20px);
+	border: black 2px solid;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	cursor: default;
+}
+
+wall:hover, path:hover, reset:hover, generate:hover{
+	background-color:grey;
+	color:white;
+}
+
+reset{
+	display: block;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px 5px;
+	border: black 2px solid;
+	margin: 20px calc(50% - 50px);
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	background-color:blue;
+	color:white;
+}
+
+main_right{
+	display: block;
+	width: 12%;
+	height: 100%;
+	float: left;
+}
+
+main_right input{
+	width: 90%;
+	height: 20px;
+}
+
+editor_footer {
+	display: block;
+	width: 100%;
+	height: 15%;
+	float: left;
+}
